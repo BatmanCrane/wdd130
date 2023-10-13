@@ -1,26 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Rock+Salt&display=swap');
+
 
 #content{
     max-width: 1600px; 
     align-items: 0 auto;
 }
 nav a{
+    font-family: Albert Sans;
     text-align: center;
     color: blue;
     text-decoration: none;
+    padding: 35px;
 }
 .home-title{
     color: #FFA62B;
+    font-family: 'Rock Salt', 'Albert Sans';
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
+    font-family: Rock Salt;
     color: #FFA62B;
 }
 #hero-img{
     width: 100%;
 }
 #hero-msg h1{
+    font-family: Rock Salt;
     text-align: center;
 }
 #hero-msg h4{
+    font-family: Rock Salt;
     text-align: center;
 }
 .button-box{
@@ -29,6 +39,9 @@ h4{
 main section{
     text-align: center;
 }
+main section img{
+    box-sizing:border-box
+}
 #background {
     background-color: #ede7e3;
     height: 725px;
@@ -36,6 +49,10 @@ main section{
 }
 body{
     background-color: #16697a ;
+    font-family: Rock Salt;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{ background-color: #FFA62B;}
 nav a:hover{
@@ -45,50 +62,89 @@ nav a:hover{
 .book{
     background-color: #ede7e3;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }  
 .join{
     background-color: #ede7e3;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #FFA62B;
     color: #16697a;
 }
 .join:hover{
-    background-color: #FFA62B;
+    background-color: #489fb5;
     color: #16697a;
 }
 .msg{
     background-color: #FFA62B;
     color: blue;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: blue;
+    font-family: Rock Salt;
+}
+.msg p{
+    padding-bottom: 15px;
 }
 footer{
     background-color: #489fb5 ;
     color: #ede7e3;
+    margin-top: 200px;
 }
 h2{
+    font-family: Rock Salt;
     color: #FFA62B;
+    margin: 0;
 }
 .logo{
     width: 80px
 }
+#logo_link{
+    padding-top: 5px;
+}
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 footer a{
     color: #ede7e3;
     text-decoration: none;
+    padding: 25px 50px;
 }
 footer a:hover{
     background-color: #ede7e3;
     color: blue;
 }
 footer p{
+    font-family: Albert Sans;
     font-size: 1.2em;
 }
 footer p a:hover {
     text-decoration: underline;
+}
+p{
+    font-family: Albert Sans;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid black;
 }
